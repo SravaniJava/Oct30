@@ -21,4 +21,4 @@ jobs:
           distribution: 'temurin'
 
       - name: Build and test with Maven
-        run: mvn clean verify
+        run: mvn -f demoCIEg/demoCIEg/pom.xml clean verify
